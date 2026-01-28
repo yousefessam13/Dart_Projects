@@ -34,7 +34,7 @@ class Library {
     }
   }
 }
-void main() {
+ main() {
   Library l = Library();
   l.addBook("Clean Code");
   l.addBook("HTML & CSS");

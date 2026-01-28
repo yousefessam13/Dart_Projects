@@ -1,0 +1,20 @@
+import 'dart:io';
+import 'dart:math';
+void main() {
+  int Number = Random().nextInt(100) + 1;
+  int counter = 0;
+  int guess = 0;
+  print("Guess a number from 1 to 100");
+  while (guess != Number) {
+    stdout.write("Enter your guess:");
+    guess = int.parse(stdin.readLineSync()!);
+    counter++;
+    if (guess > Number) {
+      print("Lower");
+    } else if (guess < Number) {
+      print("Higher");
+    } else {
+      print("Correct");
+    }
+  }
+}

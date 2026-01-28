@@ -1,6 +1,6 @@
 import 'dart:io';
 import 'dart:math';
-void main() {
+ main() {
   int Number = Random().nextInt(100) + 1;
   int counter = 0;
   int guess = 0;

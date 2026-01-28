@@ -4,7 +4,7 @@ class Student {
   double grade;
   Student(this.name, this.id, this.grade);
 }
-void main() {
+ main() {
   List<Student> students = [];
   students.add(Student("Ali", 1, 85));
   students.add(Student("Sara", 2, 90));
